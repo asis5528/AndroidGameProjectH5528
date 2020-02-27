@@ -1,0 +1,56 @@
+//
+// Created by sergio on 1/4/2020.
+//
+
+#include <LinearMath/btVector3.h>
+#include <jni.h>
+#include "Conversion.h"
+
+
+void Conversion::init(JNIEnv *env){
+
+    jclass cls = env->FindClass("com/example/user/myapplication/MathUtils/Vector3f");
+    vectorClass =(jclass) env->NewGlobalRef(cls);
+    vectorMethod = env->GetMethodID(vectorClass,"<init>","(FFF)V");
+    xf = env->GetFieldID(vectorClass,"x","F");
+    yf = env->GetFieldID(vectorClass,"y","F");
+    zf = env->GetFieldID(vectorClass,"z","F");
+}
+
+btVector3 Conversion::toVector3(JNIEnv *env,jobject vector){
+    jclass  cls = env->GetObjectClass(vector);
+    jfieldID  xf = env->GetFieldID(cls,"x","F");
+    jfieldID  yf = env->GetFieldID(cls,"y","F");
+    jfieldID  zf = env->GetFieldID(cls,"z","F");
+    float x = env->GetFloatField(vector,xf);
+    float y = env->GetFloatField(vector,yf);
+    float z = env->GetFloatField(vector,zf);
+    return btVector3(x,y,z);
+
+}
+
+jobject Conversion::tojVector3(JNIEnv *env, btVector3 vector) {
+   // jclass cls = env->FindClass("com/example/user/myapplication/MathUtils/Vector3f");
+    //jmethodID id = env->GetMethodID(cls,"<init>","(FFF)V");
+    jobject vec = env->NewObject(vectorClass,vectorMethod,0,0,0);
+
+    env->SetFloatField(vec,xf,vector.getX());
+    env->SetFloatField(vec,yf,vector.getY());
+    env->SetFloatField(vec,zf,vector.getZ());
+    return vec;
+}
+
+void Conversion::setPos(JNIEnv *env,jobject obj,jobject position){
+
+    //jobject jpos = tojVector3(env,position);
+    jclass cls = env->GetObjectClass(obj);
+   cls = (jclass) env->NewGlobalRef(cls);
+   jmethodID id = env->GetMethodID(cls,"setPosition","(Lcom/example/user/myapplication/MathUtils/Vector3f;)V");
+    env->CallVoidMethod(obj,id,position);
+
+}
+
+jobject Conversion::getPosition(JNIEnv *env,jobject object){
+    jclass cls = env->FindClass("com/example/user/myapplication/Objects/Object");
+    cls = (jclass) env->NewGlobalRef(cls);
+   // jmethodID id = env->GetMethodID(cls,"getPosition","()com/example/user/myapplication/MathUti

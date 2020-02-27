@@ -1,0 +1,70 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\android\\path_updateddata\\AndroidGameProject",
+      "sdkFolder": "D:\\eclipse-java-photon-R-win32-x86_64\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app",
+      "makeFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\src\\main\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\.cxx",
+      "cxxFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx",
+      "ndkFolder": "D:\\eclipse-java-photon-R-win32-x86_64\\sdk\\ndk-bundle",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "release",
+    "soFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86",
+  "jsonFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86",
+  "objFolder": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\build\\intermediates\\cmake\\release\\obj\\x86",
+  "buildCommandFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\build_command.txt",
+  "buildOutputFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\build_output.txt",
+  "modelOutputFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\build_generation_state.json",
+    "cacheKeyFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cxx\\release\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\x86\\compile_commands.json"
+}

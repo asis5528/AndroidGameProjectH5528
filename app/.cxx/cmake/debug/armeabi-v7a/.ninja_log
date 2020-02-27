@@ -1,0 +1,7 @@
+# ninja log v5
+14	1407	0	CMakeFiles/native-lib.dir/cpp/native-lib.cpp.o	b1269b1cdc1a83d6
+1	2328	0	CMakeFiles/native-lib.dir/cpp/Renderer.cpp.o	ce8fde82f0517c63
+2329	3351	0	D:/android/path_updateddata/AndroidGameProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	8e6223458d1db24d
+3	259	0	D:/android/path_updateddata/AndroidGameProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	cec51048f6bb7b3f
+3	102	0	D:/android/path_updateddata/AndroidGameProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	59f174a7ef730574
+4	162	0	D:/android/path_updateddata/AndroidGameProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	cec51048f6bb7b3f

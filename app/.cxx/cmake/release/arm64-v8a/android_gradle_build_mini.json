@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "D:\\android\\path_updateddata\\AndroidGameProject\\app\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\eclipse-java-photon-R-win32-x86_64\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "assimp-lib-Release-arm64-v8a": {
+      "artifactName": "assimp-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\src\\main\\jni\\Assimp_libs\\cmake\\debug\\arm64-v8a\\libassimpd.so"
+    },
+    "native-lib-Release-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "D:\\eclipse-java-photon-R-win32-x86_64\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\android\\path_updateddata\\AndroidGameProject\\app\\.cxx\\cmake\\release\\arm64-v8a --target native-lib",
+      "abi": "arm64-v8a",
+      "output": "D:\\android\\path_updateddata\\AndroidGameProject\\app\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}
